@@ -1,93 +1,113 @@
-div{
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-}  
-.navMain{
-    /* border: solid red 1px; */
-    justify-content: space-between;
-    margin: 10px;
+* {
+    margin: 0px;
+}
+div {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navMain {
+  /* border: solid red 1px; */
+  justify-content: space-between;
+  margin: 10px;
 }
 
 .nav2 * {
-    margin: 10px 20px;
-    justify-content: space-around;
-    align-items: center;
+  margin: 10px 20px;
+  justify-content: space-around;
+  align-items: center;
 }
 .nav1 div {
-    margin: 10px 20px;
+  margin: 10px 20px;
 }
 .sign {
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: solid blue 2px;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: solid blue 2px;
 }
 .nav1 div:hover {
-    border-bottom: solid lightgrey 1px;
-    cursor: pointer;
+  border-bottom: solid lightgrey 1px;
+  cursor: pointer;
 }
 .nav2 div:hover {
-    border-bottom: solid lightgrey 1px;
-    cursor: pointer;
+  border-bottom: solid lightgrey 1px;
+  cursor: pointer;
 }
 .main {
-    flex-direction: column;
-    justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
 .google {
-    justify-content: center;
-    margin-top: 70px;
+  justify-content: center;
+  margin-top: 70px;
 }
 .search {
-    justify-content: center;
-    border: solid lightgrey 1px;
-    margin: 0px 25%;
-    /* padding: 10px; */
-    border-radius: 30px;
-    margin-top: 30px;
+  justify-content: center;
+  border: solid lightgrey 1px;
+  margin: 0px 25%;
+  /* padding: 10px; */
+  border-radius: 30px;
+  margin-top: 30px;
 }
 .searchbar {
-    border: none;
-    width: 600px;
-    height: 40px;
-    outline: none;
-    font-size: large;
+  border: none;
+  width: 600px;
+  height: 40px;
+  outline: none;
+  font-size: large;
 }
 .searchHelp {
-    margin-left: 25px;
-    margin-right: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
-.glass img{
-    height: 30px;
+.glass img {
+  height: 30px;
 }
-.mic img{
-    height: 30px;
+.mic img {
+  height: 30px;
 }
-.mic, .glass {
-    align-items: center;
+.mic,.glass {
+  align-items: center;
 }
 .searchKnapper {
-    justify-content: center;
+  justify-content: center;
 }
-.searchKnapper div, .searchKnapper button {
-    padding: 10px 10px;
-    height: 35px;
-    width: 150px;
-    margin-top: 5px;
-    outline: none;
-    border: none;
+.searchKnapper div,
+.searchKnapper button {
+  padding: 10px 10px;
+  height: 35px;
+  width: 150px;
+  margin-top: 5px;
+  outline: none;
+  border: none;
 }
 .Language {
-    justify-content: center;
-    margin: 15px;
+  justify-content: center;
+  margin: 15px;
 }
 table {
-    background-color: lightgrey;
+  background-color: lightgrey;
 }
-tr {
-    border: grey;
+.Norge {
+  border-bottom: solid grey 2px;
+  padding: 10px 20px;
+}
+.fotter div {
+  padding: 5px 10px;
 }
 footer {
-    position: fixed;
-    bottom: 0;
+  position: fixed;
+  bottom: 0;
+  background-color: lightgrey;
+  width: 100%;
+  color: grey;
+}
+.fotter {
+  justify-content: space-between;
+}
+button:hover {
+  cursor: pointer;
+}
+img:hover {
+    cursor: pointer;
 }
