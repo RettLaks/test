@@ -1,7 +1,7 @@
-<h1 align="center">CSS FlexBox</h1> 
+<h1 align="center">Google Homepage</h1> 
 <div align="center"> 
     <h3> 
-        <a href="https://github.com/Sjalabaisen/test"> Lenken til prosjektet 
+        <a href="sjalabaisen.github.io/test/"> Lenken til prosjektet 
         </a> 
     </h3> 
 </div> 
@@ -25,10 +25,8 @@ Se nederst
 
 ## Features
 This app comprises use of Stack Navigation and RESTFUL Web APIs
-- Lorem ipsum 
-- Lorem ipsum 
-- Lorem ipsum 
-- Lorem ipsum 
+- Google hjemmeside 
+- Mulig å skrive i søkefeltet
 
 ## Hvordan bruke
 Hvilke koder har du brukt? Skrive her:
